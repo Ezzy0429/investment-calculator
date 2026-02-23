@@ -30,7 +30,7 @@ export default function ResultTable({ input }) {
             const totalInterest =
               item.valueEndOfYear -
               item.year * item.annualInvestment -
-              initialInvestment; // input.initialInvestment;
+              initialInvestment;
             const totalAmountInvested = item.valueEndOfYear - totalInterest;
 
             return (

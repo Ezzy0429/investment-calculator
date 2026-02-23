@@ -1,11 +1,4 @@
 export default function UserInput({ initialInput, handleInput }) {
-  // return (
-  //   <div id="user-input">
-  //     <label>{label}</label>
-  //     <input type="text" id={label} onChange={handleInput} />
-  //   </div>
-  // );
-
   return (
     <section id="user-input">
       <div className="input-group">
